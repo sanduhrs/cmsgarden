@@ -1,0 +1,31 @@
+uuid: 576ef3c3-b7f6-41a2-88d4-cc6379bac5d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testimonial.body
+    - node.type.testimonial
+  module:
+    - text
+    - user
+id: node.testimonial.teaser
+targetEntityType: node
+bundle: testimonial
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

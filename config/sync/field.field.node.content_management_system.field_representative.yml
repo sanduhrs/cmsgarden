@@ -1,0 +1,29 @@
+uuid: 7e57902e-0c9e-499b-b280-8215b83b2cfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_representative
+    - node.type.content_management_system
+    - node.type.representative
+id: node.content_management_system.field_representative
+field_name: field_representative
+entity_type: node
+bundle: content_management_system
+label: Representative
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      representative: representative
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

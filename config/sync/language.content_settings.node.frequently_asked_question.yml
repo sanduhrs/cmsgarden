@@ -1,0 +1,11 @@
+uuid: d63d5870-fae8-46f0-8190-c91436470c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.frequently_asked_question
+id: node.frequently_asked_question
+target_entity_type_id: node
+target_bundle: frequently_asked_question
+default_langcode: site_default
+language_alterable: false

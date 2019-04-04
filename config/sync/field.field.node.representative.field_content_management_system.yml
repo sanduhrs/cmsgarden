@@ -1,0 +1,29 @@
+uuid: 409a56fe-5c01-4884-80a4-941bd1c511b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_management_system
+    - node.type.content_management_system
+    - node.type.representative
+id: node.representative.field_content_management_system
+field_name: field_content_management_system
+entity_type: node
+bundle: representative
+label: 'Content Management System'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      content_management_system: content_management_system
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

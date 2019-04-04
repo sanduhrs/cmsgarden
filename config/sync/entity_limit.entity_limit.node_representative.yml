@@ -1,0 +1,19 @@
+uuid: 12facf5d-86f7-45d6-89df-1a819b299ae0
+langcode: en
+status: true
+dependencies: {  }
+id: node_representative
+label: 'Node Representative'
+weight: 0
+plugin: role_limit
+entity_type: node
+entity_bundles:
+  representative: representative
+  article: '0'
+  content_management_system: '0'
+  event: '0'
+  page: '0'
+limits:
+  -
+    id: authenticated
+    limit: 1

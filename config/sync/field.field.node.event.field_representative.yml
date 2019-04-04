@@ -1,0 +1,29 @@
+uuid: aa4e1644-7a7b-428c-bd87-54575e881654
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_representative
+    - node.type.event
+    - node.type.representative
+id: node.event.field_representative
+field_name: field_representative
+entity_type: node
+bundle: event
+label: Representative
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      representative: representative
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,13 @@
+uuid: 12851474-161f-4a08-8e2a-e2774112a071
+langcode: en
+status: true
+dependencies: {  }
+id: content_management_system_representative
+label: 'Content Management System Representative'
+enabled: true
+first_field: field_content_management_system
+second_field: field_representative
+bundles:
+  node:
+    - content_management_system
+    - representative

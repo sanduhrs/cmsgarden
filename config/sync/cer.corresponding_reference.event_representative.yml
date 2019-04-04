@@ -1,0 +1,13 @@
+uuid: 3aad18e0-41d9-4e41-8aa5-5a433f78538f
+langcode: en
+status: true
+dependencies: {  }
+id: event_representative
+label: 'Event representative'
+enabled: true
+first_field: field_event
+second_field: field_representative
+bundles:
+  node:
+    - event
+    - representative

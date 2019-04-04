@@ -1,0 +1,33 @@
+uuid: 69a325d8-f50e-47a7-ad8b-4ede57bb3a7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_management_system_events
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__content_management_system_events_block_1
+theme: bartik
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:content_management_system_events-block_1'
+settings:
+  id: 'views_block:content_management_system_events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      content_management_system: content_management_system
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

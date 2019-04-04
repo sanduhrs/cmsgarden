@@ -1,0 +1,17 @@
+uuid: 29c9686b-2f40-467e-9ce9-468136643c40
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Content Management System'
+type: content_management_system
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,35 @@
+uuid: c42c0af8-aa6c-4557-8ea7-b247914aed8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.representative.body
+    - field.field.node.representative.field_content_management_system
+    - field.field.node.representative.field_event
+    - node.type.representative
+  module:
+    - text
+    - user
+id: node.representative.teaser
+targetEntityType: node
+bundle: representative
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_content_management_system: true
+  field_event: true
+  langcode: true

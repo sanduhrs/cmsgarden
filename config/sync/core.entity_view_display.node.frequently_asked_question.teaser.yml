@@ -1,0 +1,31 @@
+uuid: ba218468-1e74-4d69-967e-4bc0cf4cbe38
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.frequently_asked_question.body
+    - node.type.frequently_asked_question
+  module:
+    - text
+    - user
+id: node.frequently_asked_question.teaser
+targetEntityType: node
+bundle: frequently_asked_question
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

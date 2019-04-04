@@ -1,0 +1,28 @@
+uuid: 47970a6d-a462-48af-b270-0e447e84a825
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create content_management_system content'
+  - 'create representative content'
+  - 'edit own content_management_system content'
+  - 'edit own representative content'
+  - 'post comments'
+  - 'revert content_management_system revisions'
+  - 'revert representative revisions'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view content_management_system revisions'
+  - 'view own unpublished content'
+  - 'view representative revisions'

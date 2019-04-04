@@ -1,0 +1,17 @@
+uuid: 9e10ba8d-42ed-4abd-8bb5-7b4c4d877b89
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Representative
+type: representative
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

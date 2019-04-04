@@ -1,0 +1,22 @@
+uuid: c630c300-e12a-4ca6-a5f2-70847cbe3f4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.content_management_system
+  module:
+    - text
+id: node.content_management_system.body
+field_name: body
+entity_type: node
+bundle: content_management_system
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

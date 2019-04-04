@@ -1,0 +1,19 @@
+uuid: 4147c983-6182-4b6b-b452-d7e214c132f9
+langcode: en
+status: true
+dependencies: {  }
+id: node_content_management_system
+label: 'Node Content management System'
+weight: 0
+plugin: role_limit
+entity_type: node
+entity_bundles:
+  content_management_system: content_management_system
+  article: '0'
+  event: '0'
+  page: '0'
+  representative: '0'
+limits:
+  -
+    id: authenticated
+    limit: 1
