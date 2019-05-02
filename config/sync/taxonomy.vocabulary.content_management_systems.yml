@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Content Management Systems'
 vid: content_management_systems
 description: ''
-hierarchy: 0
 weight: 0
