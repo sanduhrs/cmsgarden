@@ -58,6 +58,7 @@
         "drupal/views_bulk_edit": "^2.4",
         "drupal/views_bulk_operations": "^3.5",
         "drupal/views_conditional": "^1.0",
+        "drupal/views_infinite_scroll": "^1.6",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
