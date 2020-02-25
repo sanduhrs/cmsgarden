@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b41c35c8ee68819902f40ca31d930f8b",
+    "content-hash": "df1150628e4055fa753e438b018baf2f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3160,6 +3160,75 @@
             "homepage": "https://www.drupal.org/project/date_range_formatter",
             "support": {
                 "source": "https://git.drupalcode.org/project/date_range_formatter"
+            }
+        },
+        {
+            "name": "drupal/datetime_extras",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/datetime_extras.git",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/datetime_extras-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "c2f63e5ae4ba0c9df3c488488dce4125139e165d"
+            },
+            "require": {
+                "drupal/core": "~8"
+            },
+            "require-dev": {
+                "drupal/duration_field": "^2.0"
+            },
+            "suggest": {
+                "drupal/duration_field": "Required to use the 'daterange_duration' field widget"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1547590834",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "heddn",
+                    "homepage": "https://www.drupal.org/user/1463982"
+                },
+                {
+                    "name": "jhedstrom",
+                    "homepage": "https://www.drupal.org/user/208732"
+                },
+                {
+                    "name": "mpdonadio",
+                    "homepage": "https://www.drupal.org/user/325244"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
+                }
+            ],
+            "description": "Extends core Datetime and Datetime Range functionality.",
+            "homepage": "https://www.drupal.org/project/datetime_extras",
+            "support": {
+                "source": "https://git.drupalcode.org/project/datetime_extras"
             }
         },
         {
@@ -10622,6 +10691,7 @@
         "drupal/auto_entitylabel": 10,
         "drupal/cer": 15,
         "drupal/coffee": 10,
+        "drupal/datetime_extras": 15,
         "drupal/diff": 5,
         "drupal/entity_limit": 15,
         "drupal/swiftmailer": 10
