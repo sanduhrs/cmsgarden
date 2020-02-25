@@ -4,6 +4,11 @@ display:
       exposed_form:
         options:
           reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alle -'
       fields:
         filename:
           label: Name
@@ -20,6 +25,10 @@ display:
             label: Status
   page_2:
     display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alle -'
       fields:
         entity_label:
           label: Entität

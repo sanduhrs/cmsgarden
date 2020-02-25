@@ -4,3 +4,8 @@ display:
       exposed_form:
         options:
           reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alle -'

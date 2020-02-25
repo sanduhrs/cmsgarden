@@ -4,6 +4,7 @@ display:
       exposed_form:
         options:
           reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
       fields:
         title:
           label: Titel
