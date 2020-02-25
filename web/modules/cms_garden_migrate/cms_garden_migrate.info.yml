@@ -4,3 +4,6 @@ description: The CMS Garden Drupal 7 migration.
 package: CMS Garden
 core: 8.x
 core_version_requirement: ^8 || ^9
+dependencies:
+  - migrate_tools
+  - migrate_plus
