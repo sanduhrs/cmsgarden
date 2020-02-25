@@ -4,3 +4,8 @@ display:
       exposed_form:
         options:
           reset_button_label: Zurücksetzen
+      fields:
+        title:
+          label: Titel
+        name:
+          label: Autor

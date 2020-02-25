@@ -5,9 +5,16 @@ display:
         options:
           reset_button_label: Zurücksetzen
       fields:
+        filename:
+          label: Name
+        filemime:
+          label: MIME-Typ
         status:
           label: Status
       filters:
+        filemime:
+          expose:
+            label: MIME-Typ
         status:
           expose:
             label: Status

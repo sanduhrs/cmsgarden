@@ -6,6 +6,8 @@ display:
         options:
           reset_button_label: Zurücksetzen
       fields:
+        name:
+          label: Autor
         operations:
           label: Aktionen
       title: Kommentare
@@ -16,5 +18,7 @@ display:
   page_unapproved:
     display_options:
       fields:
+        name:
+          label: Autor
         operations:
           label: Aktionen

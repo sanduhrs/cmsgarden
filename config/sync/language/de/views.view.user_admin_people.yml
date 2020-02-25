@@ -7,6 +7,8 @@ display:
       fields:
         status:
           label: Status
+        roles_target_id:
+          label: Rollen
         operations:
           label: Aktionen
       filters:

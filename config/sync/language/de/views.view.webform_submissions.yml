@@ -5,16 +5,22 @@ display:
         options:
           reset_button_label: Zurücksetzen
       fields:
+        remote_addr:
+          label: IP-Adresse
         view_webform_submission:
           label: Aktionen
   embed_administer:
     display_options:
       fields:
+        remote_addr:
+          label: IP-Adresse
         operations:
           label: Aktionen
   embed_manage:
     display_options:
       fields:
+        remote_addr:
+          label: IP-Adresse
         view_webform_submission:
           label: Aktionen
         edit_webform_submission:
@@ -22,5 +28,7 @@ display:
   embed_review:
     display_options:
       fields:
+        remote_addr:
+          label: IP-Adresse
         view_webform_submission:
           label: Aktionen
