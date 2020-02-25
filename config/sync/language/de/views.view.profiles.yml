@@ -1,3 +1,4 @@
+label: Profile
 display:
   default:
     display_title: Master
@@ -19,3 +20,4 @@ display:
         status:
           exception:
             title: Alle
+      title: Profile
