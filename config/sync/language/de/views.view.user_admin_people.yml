@@ -30,6 +30,9 @@ display:
         status:
           group_info:
             label: Status
+        permission:
+          expose:
+            label: Berechtigung
   page_1:
     display_options:
       menu:
