@@ -27,6 +27,7 @@
         "drupal/coffee": "^1.0@beta",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/date_range_formatter": "^3.1",
         "drupal/diff": "^1.0@RC",
         "drupal/drush_locale_sync": "^2.0",
         "drupal/entity_limit": "^2.0@alpha",
