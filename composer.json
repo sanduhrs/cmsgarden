@@ -31,6 +31,8 @@
         "drupal/datetime_extras": "^1.0@alpha",
         "drupal/diff": "^1.0@RC",
         "drupal/drush_locale_sync": "^2.0",
+        "drupal/entity_browser": "^2.4",
+        "drupal/entity_browser_enhanced": "^1.0",
         "drupal/entity_limit": "^2.0@alpha",
         "drupal/profile": "^1.1",
         "drupal/swiftmailer": "^1.0@beta",

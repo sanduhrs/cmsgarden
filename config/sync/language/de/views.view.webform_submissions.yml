@@ -1,31 +1,73 @@
 display:
   default:
+    display_title: Master
     display_options:
       exposed_form:
         options:
+          submit_button: Anwenden
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
       pager:
         options:
           expose:
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        created:
+          label: Erstellt
+          separator: ', '
         remote_addr:
           label: IP-Adresse
+          separator: ', '
         view_webform_submission:
           label: Aktionen
   embed_administer:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
+        created:
+          label: Erstellt
+          separator: ', '
+        completed:
+          separator: ', '
         remote_addr:
           label: IP-Adresse
+          separator: ', '
         operations:
           label: Aktionen
   embed_manage:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
+        created:
+          label: Erstellt
+          separator: ', '
+        completed:
+          separator: ', '
         remote_addr:
           label: IP-Adresse
+          separator: ', '
         view_webform_submission:
           label: Aktionen
         edit_webform_submission:
@@ -33,7 +75,21 @@ display:
   embed_review:
     display_options:
       fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          separator: ', '
+        locked:
+          separator: ', '
+        created:
+          label: Erstellt
+          separator: ', '
+        completed:
+          separator: ', '
         remote_addr:
           label: IP-Adresse
+          separator: ', '
         view_webform_submission:
           label: Aktionen
