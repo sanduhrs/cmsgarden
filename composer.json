@@ -27,6 +27,7 @@
         "drupal/diff": "^1.0@RC",
         "drupal/drush_locale_sync": "^2.0",
         "drupal/entity_limit": "^2.0@alpha",
+        "drupal/profile": "^1.1",
         "drupal/swiftmailer": "^1.0@beta",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
@@ -70,6 +71,9 @@
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
+        },
+        "drupal/profile": {
+            "[#2899744] Make Profiles Translatable": "https://www.drupal.org/files/issues/2020-02-07/make-profiles-translatable-2899744-28.patch"
         },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
