@@ -22,6 +22,9 @@ display:
           label: Autor
         status:
           label: Status
+          settings:
+            format_custom_true: Veröffentlicht
+            format_custom_false: 'Nicht veröffentlicht'
         operations:
           label: Aktionen
       filters:
@@ -34,4 +37,13 @@ display:
         status:
           expose:
             label: Status
+          group_info:
+            group_items:
+              1:
+                title: Veröffentlicht
+              2:
+                title: 'Nicht veröffentlicht'
+        langcode:
+          expose:
+            label: Sprache
     display_title: Master

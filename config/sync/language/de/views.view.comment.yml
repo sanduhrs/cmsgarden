@@ -37,6 +37,10 @@ display:
           label: Aktionen
         name_1:
           separator: ', '
+      filters:
+        langcode:
+          expose:
+            label: Sprache
       title: Kommentare
   page_published:
     display_options:
@@ -44,6 +48,10 @@ display:
         title: Kommentare
   page_unapproved:
     display_options:
+      filters:
+        langcode:
+          expose:
+            label: Sprache
       fields:
         subject:
           separator: ', '
