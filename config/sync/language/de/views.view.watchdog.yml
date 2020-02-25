@@ -1,0 +1,17 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Zurücksetzen
+      fields:
+        type:
+          label: Typ
+        message:
+          label: Nachricht
+        link:
+          label: Aktionen
+      filters:
+        type:
+          expose:
+            label: Typ

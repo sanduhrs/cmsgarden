@@ -1,0 +1,33 @@
+uuid: 276c9a84-5fa9-40d0-a318-095fa468486f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kEkt0CMlvzyDoLivR6cNH__41tpFQaL_trng3Zndj84
+id: cms_garden_migrate_user
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: 'CMS Garden'
+label: 'User migration'
+source:
+  plugin: cms_garden_migrate_user
+  key: migrate
+  ids:
+    uid:
+      type: integer
+process:
+  name: name
+  pass: pass
+  mail: mail
+  timezone: timezone
+  status: status
+  created: created
+  changed: changed
+  access: access
+  login: login
+  init: init
+destination:
+  plugin: 'entity:user'
+migration_dependencies: null

@@ -1,0 +1,4 @@
+settings:
+  default_submit_button_label: Absenden
+  default_reset_button_label: Zurücksetzen
+  default_wizard_start_label: Beginn

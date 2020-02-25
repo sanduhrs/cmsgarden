@@ -1,0 +1,26 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Zurücksetzen
+      fields:
+        view_webform_submission:
+          label: Aktionen
+  embed_administer:
+    display_options:
+      fields:
+        operations:
+          label: Aktionen
+  embed_manage:
+    display_options:
+      fields:
+        view_webform_submission:
+          label: Aktionen
+        edit_webform_submission:
+          label: Aktionen
+  embed_review:
+    display_options:
+      fields:
+        view_webform_submission:
+          label: Aktionen

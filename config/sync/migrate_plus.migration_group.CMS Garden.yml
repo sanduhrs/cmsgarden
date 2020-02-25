@@ -1,0 +1,10 @@
+uuid: 372b1cca-cdeb-45c4-8a39-efb6ec097799
+langcode: en
+status: true
+dependencies: {  }
+id: 'CMS Garden'
+label: 'CMS Garden'
+description: ''
+source_type: null
+module: null
+shared_configuration: null
