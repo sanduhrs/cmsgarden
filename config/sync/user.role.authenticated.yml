@@ -24,5 +24,6 @@ permissions:
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view content_management_system revisions'
+  - 'view media'
   - 'view own unpublished content'
   - 'view representative revisions'
