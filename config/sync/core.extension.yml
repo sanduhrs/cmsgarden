@@ -70,6 +70,7 @@ module:
   rdf: 0
   realname: 0
   redirect: 0
+  registration_validation: 0
   search: 0
   shortcut: 0
   swiftmailer: 0
