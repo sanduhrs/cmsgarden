@@ -40,6 +40,7 @@
         "drupal/field_permissions": "^1.0@RC",
         "drupal/flag": "^4.0@beta",
         "drupal/geolocation": "^1.11",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/profile": "^1.1",
         "drupal/swiftmailer": "^1.0@beta",
         "drupal/token": "^1.6",
