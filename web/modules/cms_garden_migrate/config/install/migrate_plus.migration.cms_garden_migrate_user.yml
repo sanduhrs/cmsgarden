@@ -1,0 +1,22 @@
+id: cms_garden_migrate_user
+label: User migration
+migration_group: CMS Garden Drupal 7
+source:
+  plugin: cms_garden_migrate_user
+  key: migrate
+  ids:
+    uid:
+      type: integer
+destination:
+  plugin: entity:user
+process:
+  name: name
+  pass: pass
+  mail: mail
+  timezone: timezone
+  status: status
+  created: created
+  changed: changed
+  access: access
+  login: login
+  init: init
