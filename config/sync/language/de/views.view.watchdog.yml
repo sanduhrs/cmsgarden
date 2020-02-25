@@ -19,6 +19,8 @@ display:
           admin_label: Symbol
         type:
           label: Typ
+        timestamp:
+          label: Datum
         message:
           label: Nachricht
         name:

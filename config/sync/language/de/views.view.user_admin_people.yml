@@ -26,6 +26,8 @@ display:
           label: Benutzername
         status:
           label: Status
+          settings:
+            format_custom_true: Aktiv
         roles_target_id:
           label: Rollen
         operations:
@@ -36,6 +38,9 @@ display:
         status:
           group_info:
             label: Status
+            group_items:
+              1:
+                title: Aktiv
         permission:
           expose:
             label: Berechtigung

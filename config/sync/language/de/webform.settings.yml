@@ -4,3 +4,5 @@ settings:
   default_wizard_start_label: Beginn
   default_preview_next_button_label: Vorschau
   default_preview_label: Vorschau
+mail:
+  default_from_name: '[site:name]'

@@ -25,6 +25,7 @@ display:
         media_bulk_form:
           action_title: Aktion
         thumbnail__target_id:
+          label: Miniaturbild
           separator: ', '
         name:
           label: Medienname
