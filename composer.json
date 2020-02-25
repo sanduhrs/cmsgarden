@@ -52,6 +52,7 @@
         "drupal/registration_validation": "^1.2",
         "drupal/replicate_ui": "^1.0",
         "drupal/simplify": "^1.1",
+        "drupal/svg_image": "^1.9",
         "drupal/swiftmailer": "^1.0@beta",
         "drupal/token": "^1.6",
         "drupal/webform": "^5.2",
