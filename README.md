@@ -6,7 +6,7 @@
 
 ## Filesystem permissions
 
-    chmod 777 tmp translations
+    chmod 777 tmp translations web/sites/default/files
 
 ## Import initial configuration
 
