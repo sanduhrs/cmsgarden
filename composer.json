@@ -36,6 +36,7 @@
         "drupal/entity_embed": "^1.0",
         "drupal/entity_limit": "^2.0@alpha",
         "drupal/entity_usage": "^2.0@beta",
+        "drupal/field_group": "^3.0",
         "drupal/profile": "^1.1",
         "drupal/swiftmailer": "^1.0@beta",
         "drupal/token": "^1.6",
