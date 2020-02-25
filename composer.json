@@ -55,6 +55,7 @@
         "drupal/svg_image": "^1.9",
         "drupal/swiftmailer": "^1.0@beta",
         "drupal/token": "^1.6",
+        "drupal/views_bulk_edit": "^2.4",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",

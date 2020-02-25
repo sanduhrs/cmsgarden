@@ -87,6 +87,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_bulk_edit: 0
+  views_bulk_operations: 0
   views_ui: 0
   webform: 0
   webform_templates: 0
