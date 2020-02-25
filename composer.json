@@ -24,6 +24,7 @@
         "drupal/auto_entitylabel": "^3.0@beta",
         "drupal/cer": "^4.0@alpha",
         "drupal/chosen": "^2.9",
+        "drupal/coffee": "^1.0@beta",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/diff": "^1.0@RC",
