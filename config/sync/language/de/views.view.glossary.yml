@@ -15,6 +15,9 @@ display:
             items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
+          tags:
+            previous: ‹‹
+            next: ››
       fields:
         title:
           label: Titel

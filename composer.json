@@ -48,6 +48,7 @@
         "drupal/prepopulate": "^2.2",
         "drupal/profile": "^1.1",
         "drupal/realname": "^1.0@RC",
+        "drupal/redirect": "^1.5",
         "drupal/swiftmailer": "^1.0@beta",
         "drupal/token": "^1.6",
         "drupal/webform": "^5.2",

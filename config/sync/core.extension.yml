@@ -69,6 +69,7 @@ module:
   quickedit: 0
   rdf: 0
   realname: 0
+  redirect: 0
   search: 0
   shortcut: 0
   swiftmailer: 0
