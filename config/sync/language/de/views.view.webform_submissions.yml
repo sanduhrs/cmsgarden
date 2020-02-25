@@ -11,6 +11,9 @@ display:
           sort_desc_label: Absteigend
       pager:
         options:
+          tags:
+            first: '« Anfang'
+            last: 'Ende »'
           expose:
             items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
@@ -28,9 +31,15 @@ display:
           separator: ', '
         view_webform_submission:
           label: Aktionen
+      arguments:
+        in_draft:
+          exception:
+            title: Alle
   embed_administer:
     display_options:
       fields:
+        webform_submission_bulk_form:
+          action_title: Aktion
         sid:
           separator: ', '
         in_draft:
@@ -52,6 +61,8 @@ display:
   embed_manage:
     display_options:
       fields:
+        webform_submission_bulk_form:
+          action_title: Aktion
         sid:
           separator: ', '
         in_draft:

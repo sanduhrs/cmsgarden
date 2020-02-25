@@ -9,3 +9,13 @@ display:
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
+      arguments:
+        uid:
+          exception:
+            title: Alle
+        type:
+          exception:
+            title: Alle
+        status:
+          exception:
+            title: Alle

@@ -59,3 +59,9 @@ display:
           label: Entität
         type:
           label: Entitätstyp
+        count:
+          format_plural_string: !!binary MQNAY291bnQ=
+      arguments:
+        fid:
+          exception:
+            title: Alle

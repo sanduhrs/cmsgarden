@@ -22,6 +22,8 @@ display:
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       fields:
+        comment_bulk_form:
+          action_title: Aktion
         subject:
           separator: ', '
         uid:
@@ -53,6 +55,8 @@ display:
           expose:
             label: Sprache
       fields:
+        comment_bulk_form:
+          action_title: Aktion
         subject:
           separator: ', '
         uid:

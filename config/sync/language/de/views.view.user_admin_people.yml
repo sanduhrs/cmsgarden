@@ -13,11 +13,17 @@ display:
           tags:
             previous: '‹ Vorherige Seite'
             next: 'Nächste Seite ›'
+            first: '« Anfang'
+            last: 'Ende »'
           expose:
             items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       fields:
+        user_bulk_form:
+          label: Massenaktualisierung
+        name:
+          label: Benutzername
         status:
           label: Status
         roles_target_id:
@@ -34,6 +40,7 @@ display:
           expose:
             label: Berechtigung
   page_1:
+    display_title: Seite
     display_options:
       menu:
         title: Liste

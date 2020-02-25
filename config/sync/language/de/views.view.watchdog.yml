@@ -22,6 +22,7 @@ display:
         message:
           label: Nachricht
         name:
+          label: Benutzer
           separator: ', '
         link:
           label: Aktionen
@@ -29,3 +30,5 @@ display:
         type:
           expose:
             label: Typ
+  page:
+    display_title: Seite

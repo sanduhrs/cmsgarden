@@ -25,3 +25,5 @@ display:
           separator: ', '
         operations:
           label: Aktionen
+  page_1:
+    display_title: Seite

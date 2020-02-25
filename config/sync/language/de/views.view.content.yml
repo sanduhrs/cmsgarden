@@ -1,3 +1,4 @@
+label: Inhalt
 display:
   default:
     display_options:
@@ -12,6 +13,8 @@ display:
           tags:
             previous: '‹ Vorherige Seite'
             next: 'Nächste Seite ›'
+            first: '« Anfang'
+            last: 'Ende »'
       fields:
         title:
           label: Titel
@@ -46,4 +49,12 @@ display:
         langcode:
           expose:
             label: Sprache
+      title: Inhalt
     display_title: Master
+  page_1:
+    display_options:
+      menu:
+        title: Inhalt
+      tab_options:
+        title: Inhalt
+    display_title: Seite
