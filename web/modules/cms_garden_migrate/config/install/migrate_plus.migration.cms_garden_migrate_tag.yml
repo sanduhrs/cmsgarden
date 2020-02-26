@@ -9,3 +9,4 @@ destination:
 process:
   tid: tid
   name: name
+  description: description
