@@ -1,4 +1,5 @@
 <?php
+
 namespace Drupal\cms_garden_migrate\Plugin\migrate\source;
 
 use Drupal\migrate\Plugin\migrate\source\SqlBase;

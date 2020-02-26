@@ -1,0 +1,11 @@
+id: cms_garden_migrate_tag
+label: "Tag migration"
+migration_group: "CMS Garden Drupal 7"
+source:
+  plugin: cms_garden_migrate_tag
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: tags
+process:
+  tid: tid
+  name: name

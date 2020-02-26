@@ -33,4 +33,6 @@ Add the following to the active settings.php and adjust as needed:
 To execute the user migration enable the module and execute the migration:
 
     drush en cms_garden_migrate
+    drush migrate:import cms_garden_migrate_cms
+    drush migrate:import cms_garden_migrate_tag
     drush migrate:import cms_garden_migrate_user

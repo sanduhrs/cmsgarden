@@ -1,6 +1,6 @@
 id: cms_garden_migrate_user
-label: User migration
-migration_group: CMS Garden Drupal 7
+label: "User migration"
+migration_group: "CMS Garden Drupal 7"
 source:
   plugin: cms_garden_migrate_user
   key: migrate

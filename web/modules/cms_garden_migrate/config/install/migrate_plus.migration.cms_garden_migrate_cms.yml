@@ -1,0 +1,11 @@
+id: cms_garden_migrate_cms
+label: "CMS migration"
+migration_group: "CMS Garden Drupal 7"
+source:
+  plugin: cms_garden_migrate_cms
+destination:
+  plugin: entity:taxonomy_term
+  default_bundle: content_management_systems
+process:
+  tid: tid
+  name: name
