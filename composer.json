@@ -103,8 +103,13 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "drupal/profile": {
-            "[#2899744] Make Profiles Translatable": "https://www.drupal.org/files/issues/2020-02-07/make-profiles-translatable-2899744-28.patch"
+        "patches": {
+            "drupal/profile": {
+                "[#2899744] Make Profiles Translatable": "https://www.drupal.org/files/issues/2020-02-07/make-profiles-translatable-2899744-28.patch"
+            },
+            "drupal/realname": {
+                "[#3070681] Implement visibility options for 'Real name' field label": "https://www.drupal.org/files/issues/2020-01-26/3070681-13.patch"
+            }
         },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
